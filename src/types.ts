@@ -22,6 +22,12 @@ export interface DailyPractice {
   correct: number;
   wrong: number;
   timeSpent: number; // in minutes
+  skipped?: number;
+  negativeMarking?: number;
+  totalQuestions?: number;
+  optionsCount?: number;
+  perQuestionSpeed?: number; // in seconds
+  score?: number;
 }
 
 export interface MockTest {
@@ -30,6 +36,11 @@ export interface MockTest {
   mockName: string;
   subjectMarks: Record<string, number>; // { [subjectName]: score }
   totalScore: number;
+  skipped?: number;
+  negativeMarking?: number;
+  totalQuestions?: number;
+  optionsCount?: number;
+  perQuestionSpeed?: number; // in seconds
 }
 
 export enum MistakeType {

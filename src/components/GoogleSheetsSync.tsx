@@ -28,7 +28,7 @@ export default function GoogleSheetsSync({ config, mocks, practices, mistakes }:
       let csvContent = "";
       
       // Part 1: Dashboard Metadata
-      csvContent += `EXAM MISSION CONTROL - EXECUTIVE STATS PACKAGE\n`;
+      csvContent += `EXAM PREPARATION DASHBOARD - EXECUTIVE STATS PACKAGE\n`;
       csvContent += `Exam Name,${config.examName}\n`;
       csvContent += `Exam Date,${config.examDate}\n`;
       csvContent += `Total Marks,${config.totalMarks}\n`;
@@ -132,7 +132,7 @@ export default function GoogleSheetsSync({ config, mocks, practices, mistakes }:
       const totalTimeSpent = practices.reduce((sum, p) => sum + p.timeSpent, 0);
 
       const dashboardValues = [
-        ["EXAM MISSION CONTROL - EXECUTIVE STATS STATION"],
+        ["EXAM PREPARATION DASHBOARD - EXECUTIVE STATS STATION"],
         ["Terminal generated:", new Date().toLocaleDateString() + " " + new Date().toLocaleTimeString()],
         [],
         ["Core Parameter Configuration", "", "Real-Time Log Metrics", ""],

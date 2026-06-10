@@ -126,7 +126,7 @@ export default function ExamSetup({ onSetupComplete }: ExamSetupProps) {
             <Zap className="h-10 w-10 text-indigo-400" id="header-zap-icon" />
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight font-display bg-gradient-to-r from-white via-[#cbd5e1] to-[#00d4ff] bg-clip-text text-transparent">
-            EXAM MISSION CONTROL
+            EXAM PREPARATION DASHBOARD
           </h1>
           <p className="mt-2.5 text-slate-400 max-w-md mx-auto text-sm md:text-base leading-relaxed">
             Initialize your terminal to track mock tests, record performance gaps, log daily sessions, and command your study strategy.

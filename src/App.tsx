@@ -123,7 +123,7 @@ export default function App() {
             </div>
             <div className="text-left">
               <h1 className="text-lg font-black tracking-wide font-display text-white">
-                EXAM MISSION CONTROL
+                EXAM PREPARATION DASHBOARD
               </h1>
               <span className="text-[10px] uppercase font-bold tracking-widest text-emerald-400 font-mono flex items-center gap-1">
                 <Radio className="h-3 w-3 inline text-emerald-400 animate-pulse" />
@@ -315,7 +315,7 @@ export default function App() {
             STATION TELEMETRY: INBOUND COMPILING OK // DB ENGINE: LOCALSTORAGE PERSISTED // SUPABASE READY STATE
           </p>
           <p className="font-medium text-slate-600">
-            &copy; 2026 Exam Mission Control. Crafted for Competitive Success.
+            &copy; 2026 Exam Preparation Dashboard. Crafted for Competitive Success.
           </p>
         </div>
       </footer>
