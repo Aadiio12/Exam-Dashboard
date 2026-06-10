@@ -1,0 +1,6 @@
+{
+  "name": "Exam Mission Control",
+  "description": "Prepare for competitive exams like SSC CGL, UPSC, JEE, and NEET by tracking performance, analyzing weaknesses, and managing mistakes dynamically.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
